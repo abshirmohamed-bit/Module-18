@@ -1,0 +1,223 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    color: black;
+}
+
+header {
+    background-color: white;
+    color: black;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    color: black;
+}
+
+.img-logo {
+    width: 50px;
+    color: black;
+}
+
+.headerli {
+    padding: 1%;
+    color: black;
+}
+
+.content {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    color: black;
+}
+
+.button {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    color: black;
+}
+
+nav {
+    width: 72%;
+    padding: 1%;
+    color: black;
+}
+
+.ul {
+    width: 50%;
+    margin-left: auto;
+    text-align: right;
+    color: black;
+}
+
+.heroImg {
+    height: 600px;
+    padding: 25px;
+    color: black;
+}
+
+.content {
+    width: 1000px;
+    margin: 0 auto;
+    color: black;
+}
+
+.photo {
+    width: 200px;
+    color: black;
+}
+
+footer {
+    background-color: #ffffff;
+    color: black;
+}
+
+.footerul {
+    padding: 1%;
+    color: black;
+}
+
+.footerli {
+    padding: 1%;
+    color: black;
+}
+
+.mySkills {
+    padding-bottom: 50px;
+    color: black;
+}
+
+.mySkillsh1 {
+    text-align: center;
+    color: black;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    background-color: black;
+    color: black;
+}
+
+.flexContainerDiv {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    color: black;
+}
+
+.flexContainerImageDiv {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    background-color: #fefefe;
+    color: black;
+}
+
+.flexContainerImage {
+    max-width: 100%;
+    max-height: 100%;
+    color: black;
+}
+
+.flexContainerp {
+    text-align: center;
+    color: black;
+}
+
+.flexContainerul {
+    margin-top: 0px;
+    color: black;
+}
+
+.myWork {
+    background-color: #373738;
+    padding: 50px;
+    color: black;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-areas: 'myArea myDescription' 
+                         'myArea2 myDescription2';
+    padding: 0px 0px;
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    color: black;
+}
+
+.workGridDivImage {
+    width: 100%;
+    color: black;
+}
+
+.workGridDiv {
+    grid-area: myArea;
+    width: 300px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+}
+
+.workGridDescription {
+    grid-area: myDescription;
+    color: black;
+}
+
+.workGridDiv2 {
+    grid-area: myArea2;
+    width: 300px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+}
+
+.workGridDescription2 {
+    grid-area: myDescription2;
+    color: black;
+}
+
+.workGridP {
+    text-align: left;
+    color: black;
+}
+
+.workdGridButton {
+    padding: 10px 20px;
+    background-color: grey;
+    color: black;
+}
+
+.viewallprojects {
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .flexContainer {
+        flex-direction: column-reverse;
+    }
+
+    .flexContainerDiv {
+        width: 100%;
+    }
+
+    .workGrid {
+        grid-template-areas: 'myArea' 
+                             'myDescription'
+                             'myArea2'
+                             'myDescription2';
+    }
+}
